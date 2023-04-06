@@ -1,11 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import ChatApp from './src';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ChatApp/>
+      <ChatApp />
     </View>
   );
 }
@@ -13,5 +13,6 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor: '#f0f8ff',
   },
 });
